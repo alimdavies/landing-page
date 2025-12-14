@@ -2,9 +2,13 @@ body {
     margin: 0;
 }
 
+h1, p, a {
+    font-family: 'Roboto';
+}
+
 .dark {
     background-color: #1F2937;
-    padding: 10px 50px 0 50px;
+    padding: 10px 100px 150px 100px;
 }
 
 .dark h1, p, a {
@@ -14,6 +18,7 @@ body {
 header {
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 nav {
@@ -26,10 +31,6 @@ nav {
 header .logo {
     font-size: 21px;
     margin: 0;
-}
-
-h1, p {
-    font-family: 'Times New Roman', Times, serif;
 }
 
 nav .header-link {
@@ -49,6 +50,10 @@ nav .header-link {
     padding: 0;
 }
 
+.section1 p {
+    font-weight: 300;
+}
+
 .section1 button {
     background-color: rgb(53, 157, 255);
     border-radius: 5px;
@@ -66,7 +71,9 @@ nav .header-link {
 
 .image-box {
     background-color: rgb(161, 161, 161);
-    flex: 1 0 300px;
+    flex: 0 0 400px;
+    height: 200px;
+    margin-left: 10px;
     text-align: center;
     align-content: center;
 }
