@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.dark {
+    background-color: #1F2937;
+    padding: 10px 50px 0 50px;
+}
+
+.dark h1, p, a {
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: auto;
+}
+
+header .logo {
+    font-size: 21px;
+    margin: 0;
+}
+
+h1, p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav .header-link {
+    text-decoration: none;
+}
+
+.section1 {
+    display: flex;
+}
+
+.box1 {
+    flex: 1 1 auto;
+}
+
+.section1 h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 button {
+    background-color: rgb(53, 157, 255);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight:bold;
+    padding: 8px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+.section1 .box1 h1 {
+    font-size: 48px;
+}
+
+.image-box {
+    background-color: rgb(161, 161, 161);
+    flex: 1 0 300px;
+    text-align: center;
+    align-content: center;
+}
+
+.image-box p {
+    color: white;
+}
