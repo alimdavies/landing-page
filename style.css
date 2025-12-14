@@ -57,7 +57,7 @@ nav .header-link {
 }
 
 .section1 button {
-    background-color: rgb(53, 157, 255);
+    background-color: #3882f6;
     border-radius: 5px;
     border: 0;
     color: white;
@@ -83,7 +83,7 @@ nav .header-link {
 /* second section */
 
 .light {
-    padding: 0 100px 150px 100px;
+    padding: 0 100px 100px 100px;
 }
 
 .light h1, 
@@ -108,7 +108,7 @@ nav .header-link {
 .illustration {
     width: 100px;
     height: 100px;
-    border: 3px solid rgb(0, 153, 255);
+    border: 3px solid #3882f6;
     border-radius: 8px;
 }
 
@@ -121,4 +121,47 @@ nav .header-link {
     font-weight: 300;
     font-size: 12px;
     margin-top: 5px;
+}
+
+/* third section */
+
+.grey {
+    padding: 50px 200px 50px 200px;
+    background-color: #e5e7eb;
+}
+
+.grey p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+
+}
+
+.grey h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: right;
+}
+
+/* fourth sectin */
+
+.light2 {
+    padding: 50px 100px 50px 100px;
+}
+.light2 h1,
+.light2 p,
+.light2 button {
+    color: white;
+    margin: 0;
+}
+
+.light2 button {
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
 }
